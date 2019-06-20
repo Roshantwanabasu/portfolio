@@ -1,0 +1,79 @@
+
+	*{
+		margin: 0px;
+		background-color: #17202A  ;
+	}
+
+	.navbar {
+  		overflow: hidden;
+  		background-color: #283747  ;
+  		width: 100%;
+	}
+		
+	.nav  {
+  		background-color: #283747;
+  		float: left;
+  		border: none;
+  		outline: none;
+  		cursor: default;
+  		color: white;
+  		width:7%;
+  		padding: 14px 8px;
+  		font-size: 20px;
+  	}
+  		
+  	.navbar button:hover {
+  		background-color: skyblue;
+  		cursor: pointer;
+	}
+  		
+	.navcontent{
+		padding: 6px 12px;
+  		color: white;
+  		margin-top: 20px;
+  		box-sizing: border-box;
+  	}
+
+	#radius{
+		border-radius: 50%;
+		width: 20%;
+		float: right;
+	}
+		
+	.paragraph{
+		text-align: center;
+		line-height: 1.6;
+		width: 80%
+		margin:20px;
+	}
+		
+	#textdesign{
+		font-size: 25px;
+		padding-left: 30px;
+		padding-right: 30px;
+		width:70%;
+	}
+		
+	#imgcontainer{
+		margin-right: 25px;
+	}
+
+/*	table,th,td{
+		text-align: center;
+		border-collapse: collapse;
+		border: solid 4px;
+		width: 50%;
+
+	}*/
+	.list{
+		list-style: none;
+	}
+
+	.box{
+		float:left;
+		width:45%;
+		line-height: 2.0;
+		border-style: groove;
+		padding: 5px;
+		background-color: cyan;
+	}
