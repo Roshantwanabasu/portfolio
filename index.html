@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			background-color: #17202A  ;
+		}
+			
+	
+		.headercontent{
+			position: relative;
+			/*bottom: 0;*/
+			/*float: left;*/
+			width: 100%;
+			color: white;
+			text-align: center;
+			height: 40px;
+
+
+		}
+		.navbar {
+  			overflow: hidden;
+  	/*		border: none;*/
+  			background-color: #283747  ;
+  	/*		padding-left: : 0px;*/
+  /*			position: absolute;*/
+  			
+  			width: 100%;
+
+		}
+		.nav  {
+  			background-color: #283747;
+  			float: left;
+  			border: none;
+  			outline: none;
+  			cursor: default;
+  			color: white;
+  			width:12.5%;
+  			padding: 14px 40px;
+  			/*overflow: hidden;*/
+
+  			
+  		}
+  		.navbar button:hover {
+  			background-color: skyblue;
+  			cursor: pointer;
+
+  		}
+  		
+		.navcontent{
+			/*display: none;*/
+			padding: 6px 12px;
+  			/*border: 1px solid #ccc;*/
+  			/*border-top: solid;*/
+  			color: white;
+  			margin-top: 60px;	
+		}
+		
+	</style>
+	<script type="text/javascript">
+			function on_load(){
+				
+				document.getElementById("default").click();
+
+			}
+			function nav_func(navName) {
+				var i,navcontent;
+				navcontent = document.getElementsByClassName("navcontent");
+				for (i = 0; i < navcontent.length; i++) {
+					navcontent[i].style.display = "none";
+					
+					}
+				
+				document.getElementById(navName).style.display = "block";
+				
+				
+
+			}
+	</script>
+
+
+</head>
+<body onload="on_load()">
+<div style="width: 100%; height: 100%;" >
+	
+		
+		<div class="headercontent">
+			<marquee behavior="alternate" direction="right" scrollamount="13x"><h1 >Welcome! to my portfolio site.</h1></marquee>
+			 
+		</div>
+		
+	
+	<div class = "navbar">
+		<button type="button" class="nav" id ="default" onclick="nav_func('Home')" >Home</button>
+		<button type="button" class="nav" onclick="nav_func('Skill')" >Skill</button>
+		<button type="button" class="nav" onclick="nav_func('Education')">Education</button>
+		<button type="button" class="nav" onclick="nav_func('Blog')">Blog</button>
+	</div>
+
+
+
+	<div id="Home" class="navcontent">
+  		<h4>Hi, I am Roshan</h4>
+  		<p>I am a fresh computer engineering graduate student</p>
+	</div>
+
+	<div id="Skill" class="navcontent">
+  		<h3>Skill</h3>
+  		<p>INsert your skills here</p> 
+	</div>
+
+	<div id="Education" class="navcontent">
+  		<h3>Education</h3>
+  		<p>Enter your Qualification here</p>
+	</div>
+
+	<div id="Blog" class="navcontent">
+  		<h3>Blog</h3>
+  		<p>Enter some blogs here</p>
+	</div>
+</div>
+</body>
+</html>
