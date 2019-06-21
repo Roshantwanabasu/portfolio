@@ -43,8 +43,7 @@
 	.paragraph{
 		text-align: center;
 		line-height: 1.6;
-		width: 80%
-		margin:20px;
+		
 	}
 		
 	#textdesign{
@@ -66,14 +65,40 @@
 
 	}*/
 	.list{
-		list-style: none;
+		display: table;
+		padding-top: 12%;
+		list-style: cross-fade();
+		font-size: 20px;
 	}
 
 	.box{
 		float:left;
 		width:45%;
 		line-height: 2.0;
-		border-style: groove;
+		border-style: none;
 		padding: 5px;
-		background-color: cyan;
+		background-color:inherit;
+	}
+
+	#Home{
+		display: table;
+		padding-top: 8%;
+	}
+
+	.social{
+		display: table;
+		float: left;
+		width: 28px;
+		
+		padding: 5px;
+
+	}
+	
+	#contactpage{
+		text-align: center;
+		padding-top: 10px;
+	}
+	#socialcontainer{
+		display: block;
+		position: 0 auto;
 	}
