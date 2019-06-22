@@ -30,7 +30,7 @@
 	.navcontent{
 		padding: 6px 12px;
   		color: white;
-  		margin-top: 20px;
+  		margin-top: 6%;
   		box-sizing: border-box;
   	}
 
@@ -57,18 +57,11 @@
 		margin-right: 25px;
 	}
 
-/*	table,th,td{
-		text-align: center;
-		border-collapse: collapse;
-		border: solid 4px;
-		width: 50%;
-
-	}*/
 	.list{
 		display: table;
-		padding-top: 12%;
 		list-style: cross-fade();
 		font-size: 20px;
+		margin-left: 6%;
 	}
 
 	.box{
@@ -82,23 +75,44 @@
 
 	#Home{
 		display: table;
-		padding-top: 8%;
+		margin-left: 6%;
+		margin-right: 6%;
 	}
 
 	.social{
-		display: table;
-		float: left;
 		width: 28px;
-		
 		padding: 5px;
+		align-content: center;
 
 	}
 	
 	#contactpage{
 		text-align: center;
-		padding-top: 10px;
+		/* margin-top: 8%; */
 	}
+	
 	#socialcontainer{
 		display: block;
-		position: 0 auto;
+		position: inherit;
+		padding-left: 46%;
+	}
+	
+	#Blog{
+		display: table;
+		/* margin-top: 8%; */
+	}
+
+	.blogs{
+		border-style: groove;
+		padding: 20px;
+		margin-left: 6%;
+		margin-right: 6%;
+		margin-bottom: 6%;
+		max-width: 95%;
+		align-self: center;
+		line-height: 2;
+	}
+
+	.bloglink{
+		color:blueviolet;
 	}
